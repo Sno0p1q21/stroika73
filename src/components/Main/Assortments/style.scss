@@ -1,0 +1,32 @@
+.assortments-list {
+  display: flex;
+  flex-direction: column;
+
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 20px 15px;
+      background-color: #2E7E28;
+      text-align: center;
+    }
+  }
+}

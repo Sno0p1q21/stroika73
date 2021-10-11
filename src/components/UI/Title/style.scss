@@ -1,0 +1,26 @@
+.wrap {
+  font-family: ubuntu,sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 40px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    font-size: 28px;
+    margin-top: 5px;
+
+    span {
+      font-size: 42px;
+      color: #FFFFFF;
+      padding: 3px 10px;
+      background-color: #395ACB;
+    }
+  }
+}

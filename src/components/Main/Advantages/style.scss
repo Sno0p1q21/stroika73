@@ -1,0 +1,12 @@
+.catalog {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #ff7e05;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
