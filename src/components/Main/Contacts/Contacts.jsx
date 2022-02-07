@@ -20,15 +20,11 @@ const Contacts = () => (
         <ul className={cx('contacts-wrap__requisites__list')}>
           <li>
             <span>◼ </span>
-            Ульяновск, Локомотивная, 31
+            Ульяновск, Локомотивная, 140a
           </li>
           <li>
             <span>◼ </span>
             Email: vsemtruby.com
-          </li>
-          <li>
-            <span>◼ </span>
-            Телефон: +79671454492
           </li>
         </ul>
       </div>

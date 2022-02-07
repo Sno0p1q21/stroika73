@@ -2,12 +2,12 @@ import React from 'react';
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
 
 const mapData = {
-  center: [54.751574, 47.573856],
-  zoom: 6,
+  center: [54.261841, 48.315241],
+  zoom: 15,
 };
 
 const coordinates = [
-  [54.289493, 48.369786],
+  [54.261841, 48.315241],
 ];
 
 const MapSection = () => (

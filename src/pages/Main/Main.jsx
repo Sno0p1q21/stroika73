@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Main/Header';
 import Banner from '../../components/Main/Banner';
+import About from '../../components/Main/About';
 import Advantages from '../../components/Main/Advantages';
 import Assortments from '../../components/Main/Assortments';
 import FilterSection from '../../components/Main/FilterSection';
@@ -11,6 +12,7 @@ const Main = () => (
   <div style={{ background: '#f6faff' }}>
     <Header />
     <Banner />
+    <About />
     <Advantages />
     <Assortments />
     <FilterSection />

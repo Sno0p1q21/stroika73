@@ -1,76 +1,94 @@
 .banner-container {
-  min-height: 40rem;
-  padding-left: 3rem;
-  padding-top: 10rem;
-  background-position: center center;
-  background-repeat: repeat;
-  padding-bottom: 10rem;
-  font-family: ubuntu,sans-serif;
+  min-height: 400px;
+  background-color: #DCDCDC;
+  padding-top: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 100px;
+  font-family:ubuntu,sans-serif;
 
   &__title {
     display: inline-grid;
     font-family:ubuntu,sans-serif;
     text-transform: uppercase;
+    position: relative;
 
     div:first-child {
-      font-size: 3rem;
+      font-size: 30px;
       color: #FFFFFF;
-      margin-bottom: 0.1rem;
+      margin-bottom: 1px;
       
       span {
-        background-color: #A9A9A9;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        // background-color: #A9A9A9;
+        padding-left: 5px;
+        padding-right: 5px;
       }
     }
     div:nth-child(2) {
-      font-size: 5rem;
+      font-size: 50px;
       color: #FFFFFF;
-      background-color: #395ACB;
+      font-weight: 600;
+      // background-color: #395ACB;
 
       span {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
       }
     }
 
     div:last-child {
-      font-size: 2.2rem;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      font-size: 22px;
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
   }
 
   &__list {
-    font-size: 2rem;
+    font-size: 19px;
     font-weight: 300;
     padding-inline-start: 0;
+    position: relative;
+    color: #FFFFFF;
 
     li {
       span {
-        padding-right: 0.5rem;
-        color: #395ACB;
+        padding-right: 5px;
+        color: #2E7E28;
       }
       list-style-type: none;
     }
   }
 
   &__banner-button {
+    position: relative;
     font-family: 'Roboto',sans-serif;
     font-weight: 300;
     word-break: break-word;
-    width: 20rem;
+    width: 200px;
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 16px;
     cursor: pointer;
-    border: 0.3rem solid transparent;
+    border: 3px solid transparent;
     background: #2E7E28;
     border-radius: 0;
-    padding: 1rem 2rem;
-    margin: 2rem auto 0;
+    padding: 10px 20px;
+    margin: 20px auto 0;
 
     &:hover {
       background-color: #3d593b;
     }
   }
+}
+
+.banner-container:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, .6);
 }

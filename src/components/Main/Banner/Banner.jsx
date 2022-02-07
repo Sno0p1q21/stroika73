@@ -4,40 +4,38 @@ import Container from '@material-ui/core/Container';
 import Modal from '../../UI/Modal';
 import style from './style.scss';
 import Form from '../Form';
-import img from './assets/main.jpg';
+
+import image from './assets/pipe.jpg';
 
 const cx = cn.bind(style);
 
+// style={{ backgroundImage: `url(${image})` }}
 const Banner = () => {
   const [modalShow, setModalShow] = useState(false);
   return (
-    <Container maxWidth="lg" style={{ background: '#fff' }}>
-      <div className={cx('banner-container')} style={{ backgroundImage: `url(${img})` }}>
+    <Container maxWidth="lg" style={{ background: '#fff', paddingLeft: 0, paddingRight: 0 }}>
+      <div className={cx('banner-container')} style={{ position: 'relative', backgroundImage: `url(${image})` }}>
         <div className={cx('banner-container__title')}>
-          <div><span>Шиsрокий ассортимент</span></div>
+          <div><span>Широкий ассортимент</span></div>
           <div><span>стройматериалов</span></div>
-          <div><span>оптом с доставкой по Ульяновску</span></div>
+          <div><span /></div>
         </div>
         <ul className={cx('banner-container__list')}>
           <li>
             <span>◼ </span>
-            Широкий ассортимент строительных материалов
+            Широкий ассортимент материалов
           </li>
           <li>
             <span>◼ </span>
-            Кирпич строительный полнотелый
+            Высокое качество товаров
           </li>
           <li>
             <span>◼ </span>
-            Газосиликатные блоки
+            Более 60% покупателей возвращаются к нам снова
           </li>
           <li>
             <span>◼ </span>
-            Кирпич облицовочный
-          </li>
-          <li>
-            <span>◼ </span>
-            Доставка бесплатно
+            В 97% случаев поставляем свою продукцию раньше назначенного времени
           </li>
         </ul>
         <button
