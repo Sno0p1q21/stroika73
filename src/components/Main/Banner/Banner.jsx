@@ -14,7 +14,7 @@ const Banner = () => {
     <Container maxWidth="lg" style={{ background: '#fff' }}>
       <div className={cx('banner-container')} style={{ backgroundImage: `url(${img})` }}>
         <div className={cx('banner-container__title')}>
-          <div><span>Широкий ассортимент</span></div>
+          <div><span>Шиsрокий ассортимент</span></div>
           <div><span>стройматериалов</span></div>
           <div><span>оптом с доставкой по Ульяновску</span></div>
         </div>
